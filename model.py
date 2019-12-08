@@ -11,7 +11,7 @@ class OrangeClassifier():
         self.model = MobileNetV2(input_shape=(224, 224, 3), num_classes=2)
         self.model.load_weights(model_path)
 
-        self.class_map = {0:"ripe",1:"unripe"}
+        self.class_map = {0:"ripe orange",1:"unripe orange"}
 
 
     def preprocess_input(self,x):
