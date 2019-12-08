@@ -1,7 +1,3 @@
-
-#This is where we define the class that users of our library are going to use for fruit class prediction. It will import the MobileNetV2 model from the **net.py** file.
-
-
 import keras
 from keras.layers import *
 from keras.models import *
@@ -10,7 +6,7 @@ from keras.preprocessing import image
 #import MobileNetV2 from the net.py file
 from .net import MobileNetV2
 
-class FruitClassifier():
+class OrangeClassifier():
     def __init__(self, model_path):
         self.model = MobileNetV2(input_shape=(224, 224, 3), num_classes=2)
         self.model.load_weights(model_path)
