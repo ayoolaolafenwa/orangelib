@@ -5,6 +5,8 @@ import os
 from keras.preprocessing import image
 #import MobileNetV2 from the net.py file
 from .net import MobileNetV2
+import numpy as np
+
 
 class OrangeClassifier():
     def __init__(self, model_path):
