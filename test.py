@@ -4,7 +4,7 @@
 
 from orangelib.model import OrangeClassifier
 
-classifier = FruitClassifier("path_to_trained_model")
+classifier = OrangeClassifier("path_to_trained_model")
 
 fruit_name, confidence = classifier.predict("path_to_image")
 
