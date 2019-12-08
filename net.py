@@ -1,6 +1,4 @@
 #In this file, we shall create the mobilenetv2 model to be used
-
-
 import keras
 from keras.layers import *
 from keras.models import *
