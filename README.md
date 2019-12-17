@@ -5,3 +5,14 @@ The model for classifying oranges is trained with MobilleNetV2. Both the trained
 Install Orangelib with:
 
 pip install orangelib
+
+Using few lines of code you can easily classify an orange:
+
+from orangelib.model import OrangeClassifier
+
+classifier = OrangeClassifier("path_to_trained_model")
+fruit_name, confidence = classifier.predict("path_to_image")
+print(" Fruit Name: ",fruit_name)
+print("Prediction Confidence: ", confidence)
+    
+
