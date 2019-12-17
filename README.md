@@ -10,3 +10,4 @@ pip install orangelib
     
 A comprehensive article on how to use orangelib is available on   [medium](https://medium.com/@olafenwaayoola/classifying-oranges-with-orangelib-31fe7984c52?source=---------2------------------).
 
+``` from orangelib.model import Orangeclassifier```
