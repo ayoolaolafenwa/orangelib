@@ -16,7 +16,8 @@ classifier = OrangeClassifier("trained_model.h5")
 fruit_name, confidence = classifier.predict("path_to_image")
 
 print(" Fruit Name: ",fruit_name)
-print("Prediction Confidence: ",confidence)```
+print("Prediction Confidence: ",confidence)
+```
     
 
 
