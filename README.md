@@ -154,9 +154,9 @@ Prediction Confidence:  0.9988331
 ```
 
 # Excellent Result!
-We are able to classify ripe and unripe oranges with more than 99percent accuracy.
+We are able to classify ripe and unripe oranges with over 99percent accuracy.
 
-
+***Install the libraru and test it with as many samples as you wish***
 
 
 
