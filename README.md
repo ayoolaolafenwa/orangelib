@@ -41,11 +41,13 @@ print(" Fruit Name: ",fruit_name)
 print("Prediction Confidence: ",confidence)
 ```
 
-*The fruit name and the confidence of class predicted are printed out*
+*The fruit name and the level of confidence of the class predicted are printed out*
 
 We shall test the library by performing inference on eight images:
 
 *sample1*
+
+
 ![alt_test1](photos/sample1.jpg)
 
 ```
@@ -151,8 +153,9 @@ Fruit Name:  unripe orange
 Prediction Confidence:  0.9988331
 ```
 
-#Good Result!
-Our model is able to classify ripe and unripe oranges with more than 99percent accuracy.
+# Excellent Result!
+We are able to classify ripe and unripe oranges with more than 99percent accuracy.
+
 
 
 
