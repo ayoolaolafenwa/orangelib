@@ -52,13 +52,13 @@ We shall test the library by performing inference on eight images:
 fruit_name, confidence = classifier.predict("sample1.jpg")
 ```
 
-*output1
+*output1*
 ```
 Fruit Name:  ripe orange
 Prediction Confidence:  0.9945345
 ```
 
-*sample2
+*sample2*
 
 ![alt_test2](photos/sample2.jpg)
 
@@ -66,13 +66,13 @@ Prediction Confidence:  0.9945345
 fruit_name, confidence = classifier.predict("sample2.jpg")
 ```
 
-*output2
+*output2*
 ```
 Fruit Name:  unripe orange
 Prediction Confidence:  0.99920315
 ```
 
-*sample3
+*sample3*
 
 ![alt_test3](photos/sample3.jpg)
 
@@ -80,24 +80,79 @@ Prediction Confidence:  0.99920315
 fruit_name, confidence = classifier.predict("sample3.jpg")
 ```
 
-*output3
+*output3*
 ```
 Fruit Name:  ripe orange
 Prediction Confidence:  0.9999521
 ```
 
-*sample4
+*sample4*
 
 ![alt_test4](photos/sample4.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample4.jpg")
 ```
-*output4
+*output4*
 ```
 Fruit Name:  unripe orange
 Prediction Confidence:  0.9944437
-``
+```
+
+*sample5*
+
+![alt_test5](photos/sample5.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample5.jpg")
+```
+*output5*
+```
+Fruit Name:  ripe orange
+Prediction Confidence:  0.9999149
+```
+
+*sample6*
+
+![alt_test6](photos/sample6.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample6.jpg")
+```
+*output6*
+```
+Fruit Name:  unripe orange
+Prediction Confidence:  0.99999917
+```
+
+*sample7*
+
+![alt_test7](photos/sample7.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample7.jpg")
+```
+*output7*
+```
+Fruit Name:  ripe orange
+Prediction Confidence:  0.9983358
+```
+
+*sample8*
+
+![alt_test8](photos/sample8.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample8.jpg")
+```
+*output8*
+```
+Fruit Name:  unripe orange
+Prediction Confidence:  0.9988331
+```
+
+#Good Result!
+Our model is able to classify ripe and unripe oranges with more than 99percent accuracy.
 
 
 
