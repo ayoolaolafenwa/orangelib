@@ -44,8 +44,9 @@ print("Prediction Confidence: ",confidence)
 *The fruit name and the confidence of class predicted are printed out*
 
 We shall test the library by performing inference on eight images:
+
 *sample1*
-![alt_test](photos/sample1.jpg)
+![alt_test1](photos/sample1.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample1.jpg")
@@ -56,4 +57,48 @@ fruit_name, confidence = classifier.predict("sample1.jpg")
 Fruit Name:  ripe orange
 Prediction Confidence:  0.9945345
 ```
+
+*sample2
+![alt_test2](photos/sample2.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample2.jpg")
+```
+
+*output2
+```
+Fruit Name:  unripe orange
+Prediction Confidence:  0.99920315
+```
+
+*sample3
+![alt_test3](photos/sample3.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample3.jpg")
+```
+
+*output3
+```
+Fruit Name:  ripe orange
+Prediction Confidence:  0.9999521
+```
+
+*sample4
+
+![alt_test4](photos/sample4.jpg)
+
+```
+fruit_name, confidence = classifier.predict("sample4.jpg")
+```
+*output4
+```
+Fruit Name:  unripe orange
+Prediction Confidence:  0.9944437
+``
+
+
+
+
+
 
