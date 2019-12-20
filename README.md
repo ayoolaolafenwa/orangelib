@@ -59,6 +59,7 @@ Prediction Confidence:  0.9945345
 ```
 
 *sample2
+
 ![alt_test2](photos/sample2.jpg)
 
 ```
@@ -72,6 +73,7 @@ Prediction Confidence:  0.99920315
 ```
 
 *sample3
+
 ![alt_test3](photos/sample3.jpg)
 
 ```
