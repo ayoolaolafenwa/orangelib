@@ -7,7 +7,8 @@ The models for classifying oranges, bananas and apples are trained with MobilleN
 Install Orangelib with:
 
 **pip install orangelib**
-#Implementing Orangeclassifier With Orangelib:
+# Implementing Orangeclassifier With Orangelib:
+
 Orangeclassifier is used to classify ripe and unripe oranges.
 
 ## The code to implement the classification of a single image with orangelib:
@@ -103,10 +104,25 @@ Fruit Name:  unripe orange
 Prediction Confidence: 99.99999
 ```
 
+We may not to stress ourselves predicting a single image, when we intend to predict multiple images. 
+
+*Code for implementing multiple predictions with Orangelib*
+
+```
+
+from orangelib.model import OrangeClassifier
+
+classifier = OrangeClassifier("orange_model.h5")
 
 
-# Excellent Result!
-We are able to classify ripe and unripe oranges with over 99percent accuracy.
+fruit_names_list, confidence_list = classifier.predictBatch(["sample1.jpg","sample2.jpg","sample3.jpg", "sample4.jpg"])
+
+for fruit_names, confidence in zip(fruit_names_list,confidence_list):
+    print("Fruit Name: ",fruit_names)
+    print("Prediction Confidence: ", confidence)# Excellent Result!
+```
+
+ We are able to classify ripe and unripe oranges with over 99percent accuracy.
 
 
 
