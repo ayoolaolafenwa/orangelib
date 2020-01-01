@@ -50,7 +50,7 @@ print("Prediction Confidence: ",confidence)
 
 *sample1*
 
-![alt_test1](photos/sample2.jpg)
+![alt_test1](photos/sample1.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample2.jpg")
@@ -64,7 +64,7 @@ Prediction Confidence: 99.92031
 
 *sample2*
 
-![alt_test2](photos/sample3.jpg)
+![alt_test2](photos/sample2.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample3.jpg")
@@ -80,7 +80,7 @@ Prediction Confidence: 99.99995
 
 *sample3*
 
-![alt_test3](photos/sample5.jpg)
+![alt_test3](photos/sample3.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample5.jpg")
@@ -93,7 +93,7 @@ Prediction Confidence: 99.99991 0.9999149
 
 *sample4*
 
-![alt_test4](photos/sample6.jpg)
+![alt_test4](photos/sample4.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample6.jpg")
@@ -152,7 +152,7 @@ Fruit Name:  unripe orange
 Prediction Confidence: 99.99999
 ```
 
-It gives the same level of predictions for the images just as when they are predicted individually.
+It gives the same level of predictions for the images just as when they were predicted individually.
 
 
 We are able to classify ripe and unripe oranges with over 99percent accuracy.
