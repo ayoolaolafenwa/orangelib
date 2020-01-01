@@ -119,12 +119,24 @@ fruit_names_list, confidence_list = classifier.predictBatch(["sample1.jpg","samp
 
 for fruit_names, confidence in zip(fruit_names_list,confidence_list):
     print("Fruit Name: ",fruit_names)
-    print("Prediction Confidence: ", confidence)# Excellent Result!
+    print("Prediction Confidence: ", confidence)
 ```
 ```
 fruit_names_list, confidence_list = classifier.predictBatch(["sample1.jpg","sample2.jpg","sample3.jpg", "sample4.jpg"])
  ```
 We perform predictions on an array of images.
+
+
+```for fruit_names, confidence in zip(fruit_names_list,confidence_list):
+    print("Fruit Name: ",fruit_names)
+    print("Prediction Confidence: ", confidence)
+```
+
+We loop through the array of predictions and print it out the predictions for each of the images.
+  
+# Outputs:  
+
+
 We are able to classify ripe and unripe oranges with over 99percent accuracy.
 
 
