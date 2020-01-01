@@ -152,6 +152,9 @@ Fruit Name:  unripe orange
 Prediction Confidence: 99.99999
 ```
 
+It gives the same level of predictions for the images just as when they are predicted individually.
+
+
 We are able to classify ripe and unripe oranges with over 99percent accuracy.
 
 
