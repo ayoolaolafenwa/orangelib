@@ -1,14 +1,16 @@
 # Orangelib
 
-Oranges_classifier is the github repository hosting orangelib. Orangelib is a library built to simplify the implementation of computer vision in real problems. It is a library for classifying oranges into two classes: ripe and uripe. 
+This is the official github repository of Orangelib.. Orangelib is a library built to simplify the implementation of computer vision in real problems. It is a library for classifying oranges, apples and bananas. 
 
-The model for classifying oranges is trained with MobilleNetV2. Both the trained model and the dataset used in training the model are available as releases in this repository.
+The models for classifying oranges, bananas and apples are trained with MobilleNetV2. Both the trained models and the dataset used in training the model are available as releases in this repository.
 
 Install Orangelib with:
 
 **pip install orangelib**
+#Implementing Orangeclassifier With Orangelib:
+Orangeclassifier is used to classify ripe and unripe oranges.
 
-## The code to implement the classification of oranges with orangelib:
+## The code to implement the classification of a single image with orangelib:
 ```
 from orangelib.model import OrangeClassifier
 
@@ -43,120 +45,70 @@ print("Prediction Confidence: ",confidence)
 
 *The fruit name and the level of confidence of the class predicted are printed out*
 
-We shall test the library by performing inference on eight images:
+
 
 *sample1*
 
-
-![alt_test1](photos/sample1.jpg)
-
-```
-fruit_name, confidence = classifier.predict("sample1.jpg")
-```
-
-*output1*
-```
-Fruit Name:  ripe orange
-Prediction Confidence:  0.9945345
-```
-
-*sample2*
-
-![alt_test2](photos/sample2.jpg)
+![alt_test1](photos/sample2.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample2.jpg")
 ```
 
-*output2*
+*output1*
 ```
 Fruit Name:  unripe orange
-Prediction Confidence:  0.99920315
+Prediction Confidence: 99.92031 
 ```
 
-*sample3*
+*sample2*
 
-![alt_test3](photos/sample3.jpg)
+![alt_test2](photos/sample3.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample3.jpg")
 ```
 
-*output3*
+*output2*
 ```
 Fruit Name:  ripe orange
-Prediction Confidence:  0.9999521
+Prediction Confidence: 99.99995 
 ```
 
-*sample4*
 
-![alt_test4](photos/sample4.jpg)
 
-```
-fruit_name, confidence = classifier.predict("sample4.jpg")
-```
-*output4*
-```
-Fruit Name:  unripe orange
-Prediction Confidence:  0.9944437
-```
+*sample3*
 
-*sample5*
-
-![alt_test5](photos/sample5.jpg)
+![alt_test3](photos/sample5.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample5.jpg")
 ```
-*output5*
+*output3*
 ```
 Fruit Name:  ripe orange
-Prediction Confidence:  0.9999149
+Prediction Confidence: 99.99991 0.9999149
 ```
 
-*sample6*
+*sample4*
 
-![alt_test6](photos/sample6.jpg)
+![alt_test4](photos/sample6.jpg)
 
 ```
 fruit_name, confidence = classifier.predict("sample6.jpg")
 ```
-*output6*
+*output4*
 ```
 Fruit Name:  unripe orange
-Prediction Confidence:  0.99999917
+Prediction Confidence: 99.99999
 ```
 
-*sample7*
 
-![alt_test7](photos/sample7.jpg)
-
-```
-fruit_name, confidence = classifier.predict("sample7.jpg")
-```
-*output7*
-```
-Fruit Name:  ripe orange
-Prediction Confidence:  0.9983358
-```
-
-*sample8*
-
-![alt_test8](photos/sample8.jpg)
-
-```
-fruit_name, confidence = classifier.predict("sample8.jpg")
-```
-*output8*
-```
-Fruit Name:  unripe orange
-Prediction Confidence:  0.9988331
-```
 
 # Excellent Result!
 We are able to classify ripe and unripe oranges with over 99percent accuracy.
 
-***Install orangelib and test it with as many samples as you wish***
+
 
 
 
