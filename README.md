@@ -294,9 +294,9 @@ We are able to classify ripe and unripe bananas with over 99percent accuracy.
 Appleclassifier is used to classify green and red apples.
 
 
-# apple_sample1:
+*apple_sample1*
 
-![alt_test9](bananas/sample3.jpg)
+![alt_test9](apples/sample3.jpg)
 
 ## The code to implement the classification of a single banana image with orangelib:
 
