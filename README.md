@@ -429,7 +429,7 @@ It gives the same level of predictions for the images just as when they were pre
 We are able to classify green apples with over 99percent surprisingly! It classified the red apples with 100% accuracy.
 
 
-
+[Back to top](#orangelib)
 
 
 
