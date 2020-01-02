@@ -53,7 +53,7 @@ print("Prediction Confidence: ",confidence)
 ![alt_test1](photos/sample1.jpg)
 
 ```
-fruit_name, confidence = classifier.predict("sample2.jpg")
+fruit_name, confidence = classifier.predict("photos/sample1.jpg")
 ```
 
 *output1*
@@ -67,7 +67,7 @@ Prediction Confidence: 99.92031
 ![alt_test2](photos/sample2.jpg)
 
 ```
-fruit_name, confidence = classifier.predict("sample3.jpg")
+fruit_name, confidence = classifier.predict("photos/sample2.jpg")
 ```
 
 *output2*
@@ -83,7 +83,7 @@ Prediction Confidence: 99.99995
 ![alt_test3](photos/sample3.jpg)
 
 ```
-fruit_name, confidence = classifier.predict("sample5.jpg")
+fruit_name, confidence = classifier.predict("photos/sample3.jpg")
 ```
 *output3*
 ```
@@ -96,7 +96,7 @@ Prediction Confidence: 99.99991 0.9999149
 ![alt_test4](photos/sample4.jpg)
 
 ```
-fruit_name, confidence = classifier.predict("sample6.jpg")
+fruit_name, confidence = classifier.predict("photos/sample4.jpg")
 ```
 *output4*
 ```
