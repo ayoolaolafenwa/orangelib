@@ -159,6 +159,136 @@ We are able to classify ripe and unripe oranges with over 99percent accuracy.
 
 
 
+# Implementing BananaClassifier With Orangelib:
+
+Bananaclassifier is used to classify ripe and unripe bananas.
+
+
+#banana_sample1:
+
+![alt_test5](bananas/sample5.jpg)
+
+## The code to implement the classification of a single banana image with orangelib:
+
+```
+from orangelib.model import BananaClassifierClassifier
+
+classifier = BananaClassifier("banana_model.h5")
+
+fruit_name, confidence = classifier.predict("bananas/sample5.jpg")
+
+print(" Fruit Name: ",fruit_name)
+print("Prediction Confidence: ",confidence)
+```
+Little modifications to the code are:
+We import in the class BananaClassifier from Orangelib and load the trained banana model.
+
+*Output1*
+
+```
+Fruit Name:  ripe banana
+Prediction Confidence:  99.99983
+```
+*banana_sample2*
+
+![alt_test6](bananas/sample6.jpg)
+
+```
+fruit_name, confidence = classifier.predict("bananas/sample6.jpg")
+```
+
+*output2*
+```
+Fruit Name:  unripe banana
+Prediction Confidence:  99.87182
+```
+
+
+
+*sample3*
+
+![alt_test7](bananas/sample7.jpg)
+
+```
+fruit_name, confidence = classifier.predict("bananas/sample7.jpg")
+```
+*output3*
+```
+Fruit Name:  ripe banana
+Prediction Confidence:  99.99490
+```
+
+*sample4*
+
+![alt_test8](bananas/sample8.jpg)
+
+```
+fruit_name, confidence = classifier.predict("bananas/sample8.jpg")
+```
+*output4*
+```
+Fruit Name:  unripe banana
+Prediction Confidence:  99.99660
+```
+
+
+*Code for implementing multiple predictions with Orangelib Using BananaClassifier*
+
+```
+
+from orangelib.model import BananaClassifier
+
+classifier = OrangeClassifier("banana_model.h5")
+
+
+fruit_names_list, confidence_list = classifier.predictBatch(["banana/sample5.jpg","bananas/sample6.jpg","bananas/sample7.jpg", "banana/sample8.jpg"])
+
+for fruit_names, confidence in zip(fruit_names_list,confidence_list):
+    print("Fruit Name: ",fruit_names)
+    print("Prediction Confidence: ", confidence)
+```
+```
+fruit_names_list, confidence_list = classifier.predictBatch(["bananas/sample5.jpg","bananas/sample6.jpg","bananas/sample7.jpg", "bananas/sample8.jpg"])
+ ```
+We perform predictions on an array of images.
+
+
+```
+for fruit_names, confidence in zip(fruit_names_list,confidence_list):
+    print("Fruit Name: ",fruit_names)
+    print("Prediction Confidence: ", confidence)
+```
+
+We loop through the array of predictions and print it out the predictions for each of the images.
+  
+# Outputs:  
+
+
+```
+Fruit Name:  ripe banana
+Prediction Confidence:  99.99983
+
+Fruit Name:  unripe banana
+Prediction Confidence:  99.87182
+
+
+Fruit Name:  ripe banana
+Prediction Confidence:  99.99490
+
+
+Fruit Name:  unripe banana
+Prediction Confidence:  99.99660
+
+```
+
+It gives the same level of predictions for the images just as when they were predicted individually.
+
+
+We are able to classify ripe and unripe bananas with over 99percent accuracy.
+
+
+
+
 
 
 
