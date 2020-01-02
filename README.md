@@ -48,7 +48,7 @@ print("Prediction Confidence: ",confidence)
 
 
 
-*sample1*
+*orange_sample1*
 
 ![alt_test1](photos/sample1.jpg)
 
@@ -62,7 +62,7 @@ Fruit Name:  unripe orange
 Prediction Confidence: 99.92031 
 ```
 
-*sample2*
+*orange_sample2*
 
 ![alt_test2](photos/sample2.jpg)
 
@@ -78,7 +78,7 @@ Prediction Confidence: 99.99995
 
 
 
-*sample3*
+*orange_sample3*
 
 ![alt_test3](photos/sample3.jpg)
 
@@ -91,7 +91,7 @@ Fruit Name:  ripe orange
 Prediction Confidence: 99.99991 0.9999149
 ```
 
-*sample4*
+*orange_sample4*
 
 ![alt_test4](photos/sample4.jpg)
 
@@ -124,7 +124,10 @@ for fruit_names, confidence in zip(fruit_names_list,confidence_list):
 ```
 fruit_names_list, confidence_list = classifier.predictBatch(["sample1.jpg","sample2.jpg","sample3.jpg", "sample4.jpg"])
  ```
-We perform predictions on an array of images.
+We perform predictions on an array of images using the *predictBatch function*
+
+## Note:
+There is no limit to the number of images that can be predicted using the *predictBatch function*
 
 
 ```
@@ -205,7 +208,7 @@ Prediction Confidence:  99.87182
 
 
 
-*sample3*
+*banana_sample3*
 
 ![alt_test7](bananas/sample7.jpg)
 
@@ -218,7 +221,7 @@ Fruit Name:  ripe banana
 Prediction Confidence:  99.99490
 ```
 
-*sample4*
+*banana_sample4*
 
 ![alt_test8](bananas/sample8.jpg)
 
@@ -250,7 +253,7 @@ for fruit_names, confidence in zip(fruit_names_list,confidence_list):
 ```
 fruit_names_list, confidence_list = classifier.predictBatch(["bananas/sample5.jpg","bananas/sample6.jpg","bananas/sample7.jpg", "bananas/sample8.jpg"])
  ```
-We perform predictions on an array of images.
+We perform predictions on an array of images using the *predictBatch function*.
 
 
 ```
