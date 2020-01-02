@@ -8,7 +8,7 @@ Install Orangelib with:
 
 **pip install orangelib**
 
-* [Implementing OrangeClassifier With Orangelib] (#implementing-orangeclassifier-with-orangelib)
+[Implementing OrangeClassifier With Orangelib] (#implementing-orangeclassifier-with-orangelib)
 
 # Implementing Orangeclassifier With Orangelib:
 
