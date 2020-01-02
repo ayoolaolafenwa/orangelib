@@ -167,7 +167,7 @@ We are able to classify ripe and unripe oranges with over 99percent accuracy.
 Bananaclassifier is used to classify ripe and unripe bananas.
 
 
-# banana_sample1:
+*banana_sample1*
 
 ![alt_test5](bananas/sample5.jpg)
 
