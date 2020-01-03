@@ -2,7 +2,7 @@
 
 This is the official github repository of Orangelib.. Orangelib is a library built to simplify the implementation of computer vision in real problems. It is a library for classifying oranges, apples and bananas. 
 
-The models for classifying oranges, bananas and apples are trained with MobilleNetV2. Both the trained models and the dataset used in training the model are available as releases in this repository.
+The models for classifying oranges, bananas and apples are trained with MobilleNetV2. Both the trained models and the dataset used in training the models are available as releases in this repository.
 
 Install Orangelib with:
 
