@@ -8,6 +8,13 @@ Install Orangelib with:
 
 **pip install orangelib**
 
+Upgrade Orangelib with:
+
+**pip install orangelib --upgrade**
+
+
+
+
 * [Implementing OrangeClassifier With Orangelib](#implementing-orangeclassifier-with-orangelib)
 
 * [Implementing BananaClassifier With Orangelib](#implementing-bananaclassifier-with-orangelib)
