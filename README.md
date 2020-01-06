@@ -436,9 +436,10 @@ It gives the same level of predictions for the images just as when they were pre
 
 We are able to classify green apples with over 99percent surprisingly! It classified the red apples with 100% accuracy.
 
-# Excellent Results! With all the fruit classifiers available in * Orangelib.
+## Excellent Results! With all the fruit classifiers available in  Orangelib.
 
-* Install Orangelib and test it with as many images of oranges, bananas and apples. *
+
+*Install Orangelib and test it with as many images of oranges, bananas and apples.*
 
 
 [Back to top](#orangelib)
