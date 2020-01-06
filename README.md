@@ -199,6 +199,7 @@ print(" Fruit Name: ",fruit_name)
 print("Prediction Confidence: ",confidence)
 ```
 Little modifications to the code are:
+
 We import in the class BananaClassifier from Orangelib and load the trained banana model.
 
 *Output1*
@@ -434,6 +435,10 @@ It gives the same level of predictions for the images just as when they were pre
 
 
 We are able to classify green apples with over 99percent surprisingly! It classified the red apples with 100% accuracy.
+
+# Excellent Results! With all the fruit classifiers available in * Orangelib.
+
+* Install Orangelib and test it with as many images of oranges, bananas and apples. *
 
 
 [Back to top](#orangelib)
