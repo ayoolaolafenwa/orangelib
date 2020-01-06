@@ -439,7 +439,7 @@ We are able to classify green apples with over 99percent surprisingly! It classi
 ## Excellent Results! With all the fruit classifiers available in  Orangelib.
 
 
-*Install Orangelib and test it with as many images of oranges, bananas and apples.*
+*Install Orangelib and test it with many images of oranges, bananas and apples.*
 
 
 [Back to top](#orangelib)
