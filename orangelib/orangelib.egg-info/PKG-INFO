@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: orangelib
+Version: 0.4.0
+Summary: Orangelib is a library for classifying fruits. It classifies the following categories of fruits:- Ripe and Unripe Oranges: Ripe and Unripe Bananas: Green and Red Apples
+Home-page: https://github.com/ayoolaolafenwa/orangelib
+Author: Ayoola Olafenwa
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
