@@ -74,7 +74,7 @@ fruit_name, confidence = classifier.predict("photos/sample1.jpg")
 *output1*
 ```
 Fruit Name:  unripe orange
-Prediction Confidence: 99.92031 
+Prediction Confidence: 99.92031
 ```
 
 *orange_sample2*
