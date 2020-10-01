@@ -8,6 +8,8 @@ import numpy as np
 from tensorflow.keras import backend as K
 
 
+#Class for classifying oranges#
+
 class OrangeClassifier():
     def __init__(self, model_path):
         self.model = MobileNetV2(input_shape=(224, 224, 3), num_classes=2)
@@ -76,6 +78,12 @@ class OrangeClassifier():
 
         #return the class name list and the confidences
         return predicted_class_names,prediction_confidence    
+
+
+
+
+#Class for classifying bananas#
+
 
 class BananaClassifier():
     def __init__(self, model_path):
@@ -146,6 +154,10 @@ class BananaClassifier():
         #return the class name list and the confidences
         return predicted_class_names,prediction_confidence          
 
+
+
+#Class for classifying apples#
+
 class AppleClassifier():
     def __init__(self, model_path):
         self.model = MobileNetV2(input_shape=(224, 224, 3), num_classes=2)
@@ -178,7 +190,7 @@ class AppleClassifier():
 
         return image_class, prediction_confidence
 
-
+    ## Batch Function
     def predictBatch(self,image_paths):
 
         #create an array to store all processed images
