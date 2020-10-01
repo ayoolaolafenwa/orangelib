@@ -190,7 +190,7 @@ class AppleClassifier():
 
         return image_class, prediction_confidence
 
-
+    ## Batch Function
     def predictBatch(self,image_paths):
 
         #create an array to store all processed images
