@@ -442,6 +442,13 @@ We are able to classify green apples with over 99percent surprisingly! It classi
 *Install Orangelib and test it with many images of oranges, bananas and apples.*
 
 
+# References
+
+1. Building an Image Recognition Model for Mobile using Depthwise Convolutions.
+https://heartbeat.fritz.ai/building-an-image-recognition-model-for-mobile-using-depthwise-convolutions-643d70e0f7e2
+
+2. MobileNetV2: Inverted Residuals and Linear Bottlenecks. https://arxiv.org/abs/1801.04381
+
 [Back to top](#orangelib)
 
 

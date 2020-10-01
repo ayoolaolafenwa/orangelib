@@ -6,8 +6,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras import backend as K
 
 
-
-
+# Mobilenet V2 
 
 def LinearBottleNeck(x,in_channels,out_channels,stride,expansion):
 
