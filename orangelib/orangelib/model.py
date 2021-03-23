@@ -25,7 +25,7 @@ class OrangeClassifier():
 
         return x
 
-    #predict function    
+    #predict function for a single image   
 
     def predict(self,image_path):
 
@@ -44,6 +44,8 @@ class OrangeClassifier():
         image_class = self.class_map[predicted_class]
 
         return image_class, prediction_confidence
+
+    #predict function for inference on multiple images    
 
     def predictBatch(self,image_paths):
 
@@ -96,12 +98,14 @@ class BananaClassifier():
         self.class_map = {0:"ripe banana",1:"unripe banana"}
 
 
+    #preprocess input for inference
     def preprocess_input(self,x):
 
         x *= (1. / 255)
 
         return x
 
+    #predict function for a single image
     def predict(self,image_path):
 
         image_to_predict = image.load_img(image_path, target_size=(
@@ -120,6 +124,7 @@ class BananaClassifier():
 
         return image_class, prediction_confidence  
 
+    #predict function for multiple images
     def predictBatch(self,image_paths):
 
         #create an array to store all processed images
@@ -169,12 +174,14 @@ class AppleClassifier():
         self.class_map = {0:"green apple",1:"red apple"}
 
 
+    #preprocess input for inference
     def preprocess_input(self,x):
 
         x *= (1. / 255)
 
         return x
 
+    #predict function for a single image
     def predict(self,image_path):
 
         image_to_predict = image.load_img(image_path, target_size=(
@@ -193,7 +200,7 @@ class AppleClassifier():
 
         return image_class, prediction_confidence
 
-    ## Batch Function
+    ## predict function for multiple images
     def predictBatch(self,image_paths):
 
         #create an array to store all processed images
