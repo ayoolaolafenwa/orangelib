@@ -15,14 +15,17 @@ class OrangeClassifier():
         self.model = MobileNetV2(input_shape=(224, 224, 3), num_classes=2)
         self.model.load_weights(model_path)
 
+        #map classe names to their respective predicted outputs
         self.class_map = {0:"ripe orange",1:"unripe orange"}
 
-
+    #preprocess the inputs for inference
     def preprocess_input(self,x):
 
         x *= (1. / 255)
 
         return x
+
+    #predict function    
 
     def predict(self,image_path):
 
