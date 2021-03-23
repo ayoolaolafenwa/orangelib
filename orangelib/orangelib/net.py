@@ -35,6 +35,7 @@ def relu6(x):
     return K.relu(x,max_value=6)
 
 
+#Full MobileNetV2 Architecture
 def MobileNetV2(input_shape,num_classes=1000,multiplier=1.0):
 
     images = Input(shape=input_shape)
